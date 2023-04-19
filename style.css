@@ -1,0 +1,137 @@
+
+body{
+    margin: 0;
+    right: 0;
+}
+header{
+    min-height: 90vh;
+	  background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    
+}
+
+/*--Navigation--*/
+.navbar{
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.39);
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar-menu li a{
+    margin-right: 70px;
+    text-decoration: none;
+    color: inherit;
+    color: rgba(255, 255, 255, 0.438);
+    font-size: 24px; 
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.39);  
+}
+
+.navbar-menu li a:hover{
+    color: #fff;
+    transition: all 0.3s;
+    text-shadow: 0 6px 20px rgba(0, 0, 0, 0.39);
+}
+
+
+
+.navbar-logo {
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius: 3px;
+    margin-left: 30px;
+}
+
+/*--Form content--*/
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 16px;
+}
+
+textarea{
+  max-height: 150px;
+  min-height: 22px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.txt{
+  text-align: center;
+  height: 1дбб0px;
+  color: #333;
+}
+
+
+/*--Foter content--*/
+
+footer {
+  background-color: #333;
+  color: rgba(255, 255, 255, 0.438);
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-col {
+  width: 30%;
+}
+
+.footer-col h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.bottom-bar {
+  background-color: #222;
+  padding: 10px;
+  margin-top: 20px;
+}  
